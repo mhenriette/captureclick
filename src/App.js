@@ -1,12 +1,10 @@
 import './App.css';
 import Click from './components/Click';
 
-function App() {
-  return (
-    <div className="App">
+const App = () => {
+  return <div className="App">
       <Click/>
-    </div>
-  );
+    </div>;
 }
 
 export default App;
